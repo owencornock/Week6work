@@ -1,4 +1,22 @@
 body {
     color:blue;
     background-color: burlywood;
+    font-size: large;
+    text-align: center;
 }
+h1 {
+    color: aqua;
+    margin-left: auto;
+    text-align: center;
+}
+ li {
+     text-align: center;
+     color: blueviolet;
+     display:list-item;
+     padding: 5px 10px;
+ }
+ ol {
+     justify-content: center;
+     display: flex;
+     list-style-type: none;
+ }
