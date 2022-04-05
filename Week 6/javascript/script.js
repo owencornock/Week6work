@@ -6,7 +6,7 @@
     stops us using protected words, making global variables etc.
 */
 
- `use strict`
+`use strict`
 
 // let myVar =1;
 
@@ -171,21 +171,59 @@
 //         break;
 // }
 
-let strictA = true;
-let strictB = 1;
+// let strictA = true;
+// let strictB = 1;
 
-console.log(strictA == strictB);
-console.log(strictA === strictB);
+// console.log(strictA == strictB);
+// console.log(strictA === strictB);
 
-let age = 66;
+// let age = 66;
 
-if (age>=18 && age <=65) {
-    console.log(`Correct Age`);
-} else if (age<18) {
-    console.log(`Underage`);
-} else {
-    console.log(`wrong age`);
+// if (age >= 18 && age <= 65) {
+//     console.log(`Correct Age`);
+// } else if (age < 18) {
+//     console.log(`Underage`);
+// } else {
+//     console.log(`wrong age`);
+// }
+
+// let result = age >= 50 ? `50 or over` : `Under 50`;
+// console.log(result);
+
+// let darthVader = {
+//     allegiance: `empire`,
+//     weapon: `lightsabre`,
+//     sith: true
+// };
+// console.log(darthVader);
+
+// console.log(`Darth Vader's allegiance is to the ${darthVader.allegiance}`);
+// console.log(`Darth Vader's weapon of choice is a ${darthVader.weapon}`);
+// console.log(`Darth Vader is a sith? ${darthVader.sith}`);
+// console.log(`Darth Vader is a Jedi? ${!darthVader.sith}`);
+
+// let myArray = [`hello`, `everyone`];
+
+// console.log(myArray.length);
+// myArray.push("Goodbye");
+// console.log(myArray.length);
+// myArray.shift();
+
+// for (let item of myArray) {
+//     console.log(item);
+// }
+
+function sub(num1, num2) {
+    return num1 - num2;
 }
 
-let result = age >= 50 ? `50 or over` : `Under 50`; 
-console.log(result);
+console.log(sub(10,5));
+
+function welcome(name, age, gender) {
+    return console.log(`My name is ${name}, i am ${age} years old and of gender ${gender}`);
+}
+welcome("Felix Cited", 20, "Male");
+
+powerUp = (n1, n2) => "power of two numbers " + Math.pow(n1, n2);
+
+console.log(powerUp(2,4));
