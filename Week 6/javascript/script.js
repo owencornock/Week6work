@@ -213,17 +213,17 @@
 //     console.log(item);
 // }
 
-function sub(num1, num2) {
-    return num1 - num2;
-}
+// function sub(num1, num2) {
+//     return num1 - num2;
+// }
 
-console.log(sub(10,5));
+// console.log(sub(10,5));
 
-function welcome(name, age, gender) {
-    return console.log(`My name is ${name}, i am ${age} years old and of gender ${gender}`);
-}
-welcome("Felix Cited", 20, "Male");
+// function welcome(name, age, gender) {
+//     return console.log(`My name is ${name}, i am ${age} years old and of gender ${gender}`);
+// }
+// welcome("Felix Cited", 20, "Male");
 
-powerUp = (n1, n2) => "power of two numbers " + Math.pow(n1, n2);
+// powerUp = (n1, n2) => "power of two numbers " + Math.pow(n1, n2);
 
-console.log(powerUp(2,4));
+// console.log(powerUp(2,4));
