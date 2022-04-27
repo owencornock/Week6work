@@ -1,4 +1,6 @@
 let refHTTP=require('http')
+let refURL=require('url')
+
 let f=function(request,response){
     // if(request.url=="/"){
     //     console.log("Welcome to Home PAge")
@@ -17,6 +19,7 @@ let f=function(request,response){
     // response.end()
 
     console.log(request.url);
+    console.log(refUrl.parse());
 }
 let server=refHTTP.createServer(f)
 server.listen(4005)
