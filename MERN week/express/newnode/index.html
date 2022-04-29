@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function check(){
+        if(num1.value==""){
+            alert("First number is missing")
+            event.preventDefault()
+        }else{
+            if(num2.value==""){
+                alert("second number is missing")
+                event.preventDefault()
+            }
+        }
+    }
+</script>
+
+    <form id="form1" action="http://localhost:4005/process" method="post" onsubmit="check()">
+        first number:<input type="text" name="no1"><br>
+        second number:<input type="text" name="no2"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
